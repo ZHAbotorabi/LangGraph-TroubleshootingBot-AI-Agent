@@ -2,7 +2,7 @@
 
 ![banner](assets/banner.png)
 
-![Neo4j_3](assets/Neo4j_3.png)
+![Neo4j_3](assets/Neo4j_3.jpg)
 
 This project is an **intelligent troubleshooting assistant** that combines the power of:
 - **Neo4j** for decision tree representation and navigation,
