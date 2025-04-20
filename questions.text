@@ -1,0 +1,89 @@
+🔵 Node1: start
+"How do I begin diagnosing internet problems?"
+
+"Where do I start troubleshooting connectivity issues?"
+
+"What's the first step to help a customer with no internet?"
+
+🔵 Node2: modem-lights
+"Are the modem lights important to check first?"
+
+"What should I do if there are no lights on the modem?"
+
+"Should I check the modem’s lights before anything else?"
+
+"What do the modem lights indicate during troubleshooting?"
+
+🔵 Node3: restart-modem
+"Should I restart the modem if the internet isn’t working?"
+
+"Is rebooting the modem a good first step?"
+
+"Can restarting the modem fix connectivity issues?"
+
+"Do I need to power cycle the modem?"
+
+🔵 Node4: wifi-signal
+"How can I check if my Wi-Fi signal is strong?"
+
+"Wi-Fi is weak, what should I do next?"
+
+"How do I verify if the Wi-Fi strength is the issue?"
+
+"Could weak Wi-Fi be the reason for disconnection?"
+
+🔵 Node5: check-cable
+"What cables should I check for internet issues?"
+
+"Could a loose cable cause internet to stop working?"
+
+"How do I make sure the internet cables are okay?"
+
+"Which connections need to be checked during setup?"
+
+🔵 Node6: guide-plug
+"Can I help the customer plug in their modem?"
+
+"How do I guide someone to plug in the right device?"
+
+"Is there a step for showing the customer how to plug things in?"
+
+"What should I say to help the customer with their cables?"
+
+🔵 Node7: escalate
+"The issue wasn’t fixed. Should I escalate to a technician?"
+
+"When is it time to escalate the problem?"
+
+"How do I know if escalation is needed?"
+
+"What should I do when nothing works?"
+
+🔵 Node8: close-call
+"How do I finish the troubleshooting call?"
+
+"What’s the procedure for ending a resolved support call?"
+
+"Should I confirm resolution before closing the session?"
+
+"How do I wrap up the session after the issue is fixed?"
+
+🔵 Node9: callback
+"Can the customer request a callback if the issue remains?"
+
+"Is offering a callback an option here?"
+
+"When should I offer to call the customer back?"
+
+"If the problem isn’t solved, can we follow up later?"
+
+🔵 Node10: end
+"How do I end the session after all steps are done?"
+
+"What's the final step in the support flow?"
+
+"When is the troubleshooting considered complete?"
+
+"How to know if everything is resolved and we're done?"
+
+Let me kn

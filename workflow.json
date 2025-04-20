@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "nodeId": "start",
+      "title": "Start",
+      "nextNodes": [
+        {
+          "condition": "Begin",
+          "target": "modem-lights"
+        }
+      ]
+    },
+    {
+      "nodeId": "modem-lights",
+      "title": "Are modem lights on?",
+      "nextNodes": [
+        {
+          "condition": "Yes",
+          "target": "wifi-signal"
+        },
+        {
+          "condition": "No",
+          "target": "restart-modem"
+        }
+      ]
+    },
+    {
+      "nodeId": "restart-modem",
+      "title": "Restart modem",
+      "nextNodes": [
+        {
+          "condition": "Done",
+          "target": "modem-lights"
+        }
+      ]
+    },
+    {
+      "nodeId": "wifi-signal",
+      "title": "Ask about Wi-Fi signal",
+      "nextNodes": [
+        {
+          "condition": "Strong",
+          "target": "close-call"
+        },
+        {
+          "condition": "Weak",
+          "target": "check-cable"
+        }
+      ]
+    },
+    {
+      "nodeId": "check-cable",
+      "title": "Check cable connection",
+      "nextNodes": [
+        {
+          "condition": "Loose",
+          "target": "guide-plug"
+        },
+        {
+          "condition": "OK",
+          "target": "escalate"
+        }
+      ]
+    },
+    {
+      "nodeId": "guide-plug",
+      "title": "Guide user to plug/unplug",
+      "nextNodes": [
+        {
+          "condition": "Done",
+          "target": "close-call"
+        }
+      ]
+    },
+    {
+      "nodeId": "escalate",
+      "title": "Escalate to technician",
+      "nextNodes": [
+        {
+          "condition": "Done",
+          "target": "end"
+        }
+      ]
+    },
+    {
+      "nodeId": "close-call",
+      "title": "Close with confirmation",
+      "nextNodes": [
+        {
+          "condition": "Resolved",
+          "target": "end"
+        },
+        {
+          "condition": "Not Resolved",
+          "target": "callback"
+        }
+      ]
+    },
+    {
+      "nodeId": "callback",
+      "title": "Offer callback",
+      "nextNodes": [
+        {
+          "condition": "Done",
+          "target": "end"
+        }
+      ]
+    },
+    {
+      "nodeId": "end",
+      "title": "End",
+      "nextNodes": []
+    }
+  ]
+}

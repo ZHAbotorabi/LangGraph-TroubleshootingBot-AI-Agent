@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TroubleshootingBot</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">TroubleshootingBot: Neo4j + Semantic Search</h2>
+    <form method="post">
+        <div class="mb-3">
+            <input type="text" name="query" class="form-control" placeholder="Ask me anything..." required>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+    <ul class="nav nav-tabs mt-4" id="resultTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="procedure-tab" data-bs-toggle="tab" data-bs-target="#procedure" type="button">Procedure</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="article-tab" data-bs-toggle="tab" data-bs-target="#article" type="button">Article</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="script-tab" data-bs-toggle="tab" data-bs-target="#script" type="button">Script</button>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="procedure">
+            <p>{{ result.procedure }}</p>
+        </div>
+        <div class="tab-pane fade" id="article">
+            <p>{{ result.article }}</p>
+        </div>
+        <div class="tab-pane fade" id="script">
+            <p>{{ result.script }}</p>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

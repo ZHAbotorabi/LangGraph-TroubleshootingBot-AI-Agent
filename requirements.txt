@@ -1,0 +1,6 @@
+flask
+faiss-cpu
+sentence-transformers
+neo4j
+langchain
+langgraph
