@@ -1,8 +1,8 @@
 # TroubleshootingBot: Neo4j + Semantic Search + LangGraph + Flask
 
-![banner](assets/banner.png)
+[banner](assets/banner.png)
 
-![gragh](assets/Neo4j_3.png)
+[gragh](assets/Neo4j_3.png)
 
 This project is an **intelligent troubleshooting assistant** that combines the power of:
 - **Neo4j** for decision tree representation and navigation,
