@@ -1,6 +1,6 @@
 # TroubleshootingBot: Neo4j + Semantic Search + LangGraph + Flask
 
-! [banner](assets/banner.png)
+![banner](assets/banner.png)
 
 [gragh](assets/Neo4j_3.png)
 
