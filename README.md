@@ -79,8 +79,8 @@ langgraph
 
 Start Neo4j Desktop and make sure your graph is running (with `bolt://localhost:7687`)
 
-![gragh_1](assets/Neo4j_1.png)
-![gragh_2](assets/Neo4j_2.png)
+![gragh_1](assets/Neo4j_1.jpg)
+![gragh_2](assets/Neo4j_2.jpg)
 
 Then in terminal:
 
@@ -88,7 +88,7 @@ Then in terminal:
 python agent_graph_ui.py
 ```
 
-![code](assets/agent_graph.png)
+![code](assets/agent_graph.jpg)
 
 Open your browser:  
 **http://127.0.0.1:5001**
@@ -101,9 +101,9 @@ Try any of these:
 - “Are the modem lights important to check first?”
 - “Should I restart the modem if the internet is not working?”
 - “Can the customer request a callback if the issue remains?”
-![re1](assets/1.png)
-![re2](assets/2.png)
-![re3](assets/3.png)
+![re1](assets/1.jpg)
+![re2](assets/2.jpg)
+![re3](assets/3.jpg)
 
 ---
 
